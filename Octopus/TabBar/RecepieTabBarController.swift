@@ -18,17 +18,23 @@ class RecepieTabBarController: UITabBarController, UITabBarControllerDelegate {
 
         override func viewWillAppear(_ animated: Bool) {
             super.viewWillAppear(animated)
-            let item1 = IngredientsViewController()
-            item1.recepie = self.recepie
-            let icon1 = UITabBarItem(title: "Ingredients", image: UIImage(systemName: "star.fill"), selectedImage: UIImage(named: "chevron"))
-            item1.tabBarItem = icon1
             
-            let item2 = CookingViewController()
-            item2.recepie = self.recepie
-            let icon2 = UITabBarItem(title: "Cooking", image: UIImage(systemName: "star.fill"), selectedImage: UIImage(named: "chevron"))
-            item2.tabBarItem = icon2
+            let info = InfoViewController()
+            info.recepie = self.recepie
+            let icon1 = UITabBarItem(title: "Info", image: UIImage(systemName: "star.fill"), selectedImage: UIImage(named: "star.fill"))
+            info.tabBarItem = icon1
             
-            let controllers = [item2, item1]
+            let ingredients = IngredientsViewController()
+            ingredients.recepie = self.recepie
+            let icon2 = UITabBarItem(title: "Ingredients", image: UIImage(systemName: "star.fill"), selectedImage: UIImage(named: "star.fill"))
+            ingredients.tabBarItem = icon2
+            
+            let cooking = CookingViewController()
+            cooking.recepie = self.recepie
+            let icon3 = UITabBarItem(title: "Cooking", image: UIImage(systemName: "star.fill"), selectedImage: UIImage(named: "star.fill"))
+            cooking.tabBarItem = icon3
+            
+            let controllers = [info, ingredients, cooking]
             self.viewControllers = controllers
         }
 

@@ -8,9 +8,9 @@
 import UIKit
 
 class CookingViewCell: UITableViewCell {
-    func configure(with step: Description) {
+    func configure(with step: Description, number: Int) {
         var content = defaultContentConfiguration()
-        content.text = step.step
+        content.text = "\(number). " + step.step
         contentConfiguration = content
     }
 }

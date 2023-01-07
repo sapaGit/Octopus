@@ -11,6 +11,7 @@ class IngredientTableViewCell: UITableViewCell {
     func configure(with ingredient: Ingredient) {
         var content = defaultContentConfiguration()
         content.text = ingredient.ingredient
+        content.textProperties.alignment = .center
         contentConfiguration = content
     }
 }

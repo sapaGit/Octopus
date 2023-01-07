@@ -10,7 +10,7 @@ import UIKit
 class IngredientsViewController: UIViewController {
 
     var recepie: Recepie!
-    let ingredienrsTableView = UITableView()
+    let ingredientsTableView = UITableView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +20,11 @@ class IngredientsViewController: UIViewController {
     }
     
     private func setupTableView() {
-        ingredienrsTableView.register(IngredientTableViewCell.self, forCellReuseIdentifier: "IngredientCell")
-        ingredienrsTableView.frame = CGRect(x: 10, y: 10, width: self.view.frame.width, height: 500)
-        ingredienrsTableView.dataSource = self
-        ingredienrsTableView.delegate = self
-        self.view.addSubview(ingredienrsTableView)
+        ingredientsTableView.register(IngredientTableViewCell.self, forCellReuseIdentifier: "IngredientCell")
+        ingredientsTableView.frame = CGRect(x: 10, y: 10, width: self.view.frame.width, height: 500)
+        ingredientsTableView.dataSource = self
+        ingredientsTableView.delegate = self
+        self.view.addSubview(ingredientsTableView)
     }
 
 }
