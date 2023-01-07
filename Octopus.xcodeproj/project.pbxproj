@@ -16,6 +16,7 @@
 		A08A35ED2968408C009B176F /* RecepieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A35EC2968408C009B176F /* RecepieData.swift */; };
 		A08CD68529696D6F00486FB5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD68429696D6F00486FB5 /* TableViewCell.swift */; };
 		A08CD68729696E2F00486FB5 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD68629696E2F00486FB5 /* ImageManager.swift */; };
+		A08CD6892969723600486FB5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD6882969723600486FB5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A08A35EC2968408C009B176F /* RecepieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieData.swift; sourceTree = "<group>"; };
 		A08CD68429696D6F00486FB5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A08CD68629696E2F00486FB5 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		A08CD6882969723600486FB5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A08A35D4296832D5009B176F /* AppDelegate.swift */,
 				A08A35D8296832D5009B176F /* ListViewController.swift */,
 				A08CD68429696D6F00486FB5 /* TableViewCell.swift */,
+				A08CD6882969723600486FB5 /* DetailViewController.swift */,
 				A08A35E829683ED6009B176F /* ModelRecepie.swift */,
 				A08CD68629696E2F00486FB5 /* ImageManager.swift */,
 				A08A35EC2968408C009B176F /* RecepieData.swift */,
@@ -153,6 +156,7 @@
 				A08CD68729696E2F00486FB5 /* ImageManager.swift in Sources */,
 				A08A35E929683ED6009B176F /* ModelRecepie.swift in Sources */,
 				A08A35ED2968408C009B176F /* RecepieData.swift in Sources */,
+				A08CD6892969723600486FB5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
