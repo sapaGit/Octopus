@@ -1,0 +1,69 @@
+{
+  "menu":[{
+    "recepie": {
+      "title": "Fresh octopus salad",
+      "ingredients": [
+            { "ingredient": "1kg octopus"},
+            {"ingredient": "1 lemon, juice of"},
+            {"ingredient": "4 tbsp of extra virgin olive oil"},
+            {"ingredient": "1 red onion, thinly sliced"},
+            {"ingredient": "2 red chillies, chopped"},
+            {"ingredient": "1 white onion, cut into quarters"},
+            {"ingredient": "1 bay leaf"},
+            {"ingredient": "1 tsp salt"},
+            {"ingredient": "1 tsp black pepper"},
+            {"ingredient": "fresh coriander, to garnish"}
+        ],
+        "smallImage": "01S",
+        "largeImage": "01L",
+        "description": [
+            {"step": "Clean and section the octopus (or get your fishmonger to do it for you) and wash it well"},
+            {"step": "Place the octopus into a pan with the bay leaf and onion. Cover with water and bring to a simmer. Simmer for around 45 minutes until tender. Check this by inserting a fork or toothpick into the thickest part of the flesh. If its tender and soft it's cooked to perfection."},
+            {"step": "Meanwhile make the dressing: mix together the olive oil, lemon juice, chillies, salt and pepper"},
+            {"step": "Once cooked, let the octopus cool in the liquor. When cool drain and reserve the onion from the water. Slice the octopus into 1cm pieces."},
+            {"step": "Toss the octopus and onion with the dressing and serve"}
+        ],
+        "dificulty": "medium",
+        "cookingTime": "45 minutes",
+        "author": "Selina Periampillai",
+        "authorDescription": "Selina Periampillai is a British-born Mauritian food pioneer, self-taught chef and author of The Island Kitchen."
+        }
+    },
+      {
+        "recepie": {
+          "title": "Grilled octopus with fennel, caramelised lemon and salsa cruda",
+          "ingredients": [
+                { "ingredient": "1 small octopus, defrosted if frozen"},
+                {"ingredient": "1 fennel, large, quartered and root trimmed"},
+                {"ingredient": "olive oil, for cooking"},
+                {"ingredient": "1 tsp fennel seeds"},
+                {"ingredient": "150ml of moscatel vinegar"},
+                {"ingredient": "1 banana shallot, large, finely chopped"},
+                {"ingredient": "1/2 bunch of flat-leaf parsley, finely chopped"},
+                {"ingredient": "1/2 bunch of dill, finely chopped"},
+                {"ingredient": "50ml of extra virgin olive oil"},
+                {"ingredient": "1 lemon, topped and tailed, cut into 4 equal circles"},
+                {"ingredient": "sea salt"},
+                {"ingredient": "freshly ground black pepper"}
+            ],
+            "smallImage": "02S",
+            "largeImage": "02L",
+            "description": [
+                {"step": "Steam or simmer the octopus for 45-60 minutes, until very tender, then set aside"},
+                {"step": "Preheat an oven to 170°C/Gas mark 3.5"},
+                {"step": "Place the fennel on a baking tray, drizzle with olive oil and sprinkle over the fennel seeds. Pour over 50ml of the vinegar, season with salt and pepper then cook in the oven until tender and just starting to crisp at the ends (around 30-45 minutes)"},
+                {"step": "Meanwhile, cut the tentacles from the head of the octopus and reserve the head for another dish"},
+                {"step": "Place a griddle pan over a medium-high heat or light a barbecue and wait for the coals to begin glowing"},
+                {"step": "Make the salsa cruda by combining the shallot, herbs, extra virgin olive oil and the remaining vinegar. Season to taste and set aside"},
+                {"step": "Place the lemon circles on the griddle pan or barbecue and cook for a few minutes on each side, until charred and softened. Set aside"},
+                {"step": "Rub the tentacles with olive oil and season, then place on the griddle or barbecue and cook for 2-3 minutes until lightly charred and crisp"},
+                {"step": "To serve, place a lemon wedge, a fennel quarter and 1 or 2 octopus tentacles on each plate. Finish with a spoonful of the salsa cruda"}
+            ],
+            "dificulty": "easy",
+            "cookingTime": "2 hours",
+            "author": "Ben Tish",
+            "authorDescription": "Chef, restaurateur and cookbook author Ben Tish has a stellar track record for creating dishes that, quite simply, everyone wants to eat. After years of channelling his love of Mediterranean food he's now chef director across Cubitt House's various pubs and restaurants, proving just how versatile his talents are."
+            }
+        }
+    ]
+  }

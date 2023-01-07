@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
+        let data = RecepieBank()
+        print(data.shared.menu[0].recepie.title)
     }
-
-
 }
 
