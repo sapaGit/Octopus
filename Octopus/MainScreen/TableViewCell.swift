@@ -15,5 +15,4 @@ class RecepieTableViewCell: UITableViewCell {
         content.image = image
         contentConfiguration = content
     }
-
 }

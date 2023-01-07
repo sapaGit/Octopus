@@ -15,8 +15,8 @@ class ListViewController: UITableViewController {
         tableView.register(RecepieTableViewCell.self, forCellReuseIdentifier: "RecepieCell")
     }
     
-    private func goToDetailVC(sender: Any?) {
-        let controller = DetailViewController()
+    private func goToTabBarVC(sender: Any?) {
+        let controller = RecepieTabBarController()
         self.navigationController?.pushViewController(controller, animated: true)
         controller.recepie = sender as? Recepie
     }
@@ -39,6 +39,6 @@ extension ListViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let recepie = recepieArray[indexPath.row].recepie
-        goToDetailVC(sender: recepie)
+        goToTabBarVC(sender: recepie)
     }
 }
