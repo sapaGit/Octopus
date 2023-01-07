@@ -12,6 +12,7 @@
 		A015952D2969BFEE00366C08 /* CookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015952C2969BFEE00366C08 /* CookingViewController.swift */; };
 		A015952F2969C02400366C08 /* CookingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015952E2969C02300366C08 /* CookingViewCell.swift */; };
 		A01595312969C4F800366C08 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01595302969C4F800366C08 /* InfoViewController.swift */; };
+		A01595352969E72700366C08 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01595342969E72700366C08 /* AuthorViewController.swift */; };
 		A08A35D5296832D5009B176F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A35D4296832D5009B176F /* AppDelegate.swift */; };
 		A08A35D9296832D5009B176F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A35D8296832D5009B176F /* ListViewController.swift */; };
 		A08A35DE296832D6009B176F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08A35DD296832D6009B176F /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		A015952C2969BFEE00366C08 /* CookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingViewController.swift; sourceTree = "<group>"; };
 		A015952E2969C02300366C08 /* CookingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingViewCell.swift; sourceTree = "<group>"; };
 		A01595302969C4F800366C08 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A01595342969E72700366C08 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 		A08A35D1296832D5009B176F /* Octopus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octopus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08A35D4296832D5009B176F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A08A35D8296832D5009B176F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -59,9 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				A01595282969BCC800366C08 /* RecepieTabBarController.swift */,
+				A01595322969C55000366C08 /* DescriptionScreen */,
 				A015952B2969BF4800366C08 /* CookingScreen */,
 				A08CD68C2969759D00486FB5 /* IngredientsScreen */,
-				A01595322969C55000366C08 /* DescriptionScreen */,
+				A01595332969E6ED00366C08 /* AuthorScreen */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -81,6 +84,14 @@
 				A01595302969C4F800366C08 /* InfoViewController.swift */,
 			);
 			path = DescriptionScreen;
+			sourceTree = "<group>";
+		};
+		A01595332969E6ED00366C08 /* AuthorScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A01595342969E72700366C08 /* AuthorViewController.swift */,
+			);
+			path = AuthorScreen;
 			sourceTree = "<group>";
 		};
 		A08A35C8296832D5009B176F = {
@@ -250,6 +261,7 @@
 				A08A35D9296832D5009B176F /* ListViewController.swift in Sources */,
 				A08A35D5296832D5009B176F /* AppDelegate.swift in Sources */,
 				A01595312969C4F800366C08 /* InfoViewController.swift in Sources */,
+				A01595352969E72700366C08 /* AuthorViewController.swift in Sources */,
 				A08CD68729696E2F00486FB5 /* ImageManager.swift in Sources */,
 				A08A35E929683ED6009B176F /* ModelRecepie.swift in Sources */,
 				A08A35ED2968408C009B176F /* RecepieData.swift in Sources */,

@@ -12,6 +12,7 @@ class ListViewController: UITableViewController {
     let recepieArray = RecepieBank().shared.menu
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Receipes"
         tableView.register(RecepieTableViewCell.self, forCellReuseIdentifier: "RecepieCell")
     }
     

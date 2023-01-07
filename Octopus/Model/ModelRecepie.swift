@@ -16,7 +16,7 @@ struct Recepie: Codable {
     let ingredients: [Ingredient]
     let smallImage, largeImage: String
     let description: [Description]
-    let dificulty, cookingTime, author, authorDescription: String
+    let dificulty, cookingTime, author, authorDescription, info, authorImage: String
 }
 
 // MARK: - Description

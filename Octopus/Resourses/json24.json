@@ -25,8 +25,10 @@
         ],
         "dificulty": "medium",
         "cookingTime": "45 minutes",
+        "info": "Have you ever cooked octopus? Selina gives some great tips on dealing with this eight legged creature and shares a beautiful recipe for fresh octopus salad.",
         "author": "Selina Periampillai",
-        "authorDescription": "Selina Periampillai is a British-born Mauritian food pioneer, self-taught chef and author of The Island Kitchen."
+        "authorDescription": "Selina Periampillai is a British-born Mauritian food pioneer, self-taught chef and author of The Island Kitchen.",
+        "authorImage": "SelinaPeriampillai"
         }
     },
       {
@@ -61,8 +63,10 @@
             ],
             "dificulty": "easy",
             "cookingTime": "2 hours",
+            "info": "If you haven't had octopus before, we can't think of a better dish to introduce you to its delicious flavour and meaty texture. The tentacles are grilled until crisp and lightly charred, served with the fresh anise hit of fennel and dressed with a simple combination of shallots and herbs in oil and vinegar. The caramelised lemon wedge finishes things off with a smoky sweetness.",
             "author": "Ben Tish",
-            "authorDescription": "Chef, restaurateur and cookbook author Ben Tish has a stellar track record for creating dishes that, quite simply, everyone wants to eat. After years of channelling his love of Mediterranean food he's now chef director across Cubitt House's various pubs and restaurants, proving just how versatile his talents are."
+            "authorDescription": "Chef, restaurateur and cookbook author Ben Tish has a stellar track record for creating dishes that, quite simply, everyone wants to eat. After years of channelling his love of Mediterranean food he's now chef director across Cubitt House's various pubs and restaurants, proving just how versatile his talents are.",
+            "authorImage": "BenTish"
             }
         }
     ]
