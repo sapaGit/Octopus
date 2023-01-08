@@ -68,6 +68,38 @@
             "authorDescription": "Chef, restaurateur and cookbook author Ben Tish has a stellar track record for creating dishes that, quite simply, everyone wants to eat. After years of channelling his love of Mediterranean food he's now chef director across Cubitt House's various pubs and restaurants, proving just how versatile his talents are.",
             "authorImage": "BenTish"
             }
+        },
+      {
+        "recepie": {
+          "title": "Fried Octopus With Garlic",
+          "ingredients": [
+                {"ingredient": "1 bunch of leeks (garlic sprouts)"},
+                {"ingredient": "1 chili peppers (red pepper, fresh chili peppers will be better"},
+                {"ingredient": "6 slices of ginger"},
+                {"ingredient": "500 g octopus"},
+                {"ingredient": "1 tablespoon salt (wash octopus)"},
+                {"ingredient": "1 teaspoon white vinegar (blanch octopus)"},
+                {"ingredient": "1/4 teaspoon light soy sauce"},
+                {"ingredient": "1/4 teaspoon oyster sauce"},
+                {"ingredient": "1/2 teaspoon white vinegar"},
+                {"ingredient": "1/8 teaspoon salt"}
+            ],
+            "smallImage": "03L",
+            "largeImage": "03L",
+            "description": [
+                {"step": "Firstly, we should prepare ingredients for this food. Cut 1 bunch of garlic sprouts, save them for later. Then cut 1 red pepper, save it for later. Cut 6 slices of ginger. Then shred 3 slices of ginger, save them for later."},
+                {"step": "Second, we should wash octopus for this food. Firstly, we should turn the head of the octopus out. Then remove the viscera. If it still has teeth, we should aslo remove them. After that, add 1 tablespoon salt to scrub the octopus. It can help us to clean the mucus from the octopus. Then use the water to wash them twice. Save them for later."},
+                {"step": "Next, we should cut octopus. Firstly, separate the head and the feet. Then cut the head into 2 pieces. After that, according to the side of the 8 feet of octopus, cut it into 4 pieces. Then save them for later."},
+                {"step": "Next, we should blanch octopus. Firstly, add 3 slices of ginger, 1 teaspoon white vinegar into the pan. Then add enough water into the pan. Use the big fire to boil them. After the water has boiled, add the octopus into the pan and blanch them for 30 seconds. Then put them into the cold water to wash. Then save them for later."},
+                {"step": "Now we can start to fry Chinese octopus with garlic. Firstly, add 1 tablespoon peanut oil into the pan. Use the big fire to heat it. Then add the shredded ginger, stir fry until fragrant. Then add octopus into the pan. Stir fry it for 2 minutes. Then add 1/4 teaspoon light soy sauce, 1/4 teaspoon oyster sauce, 1/2 teaspoon white vinegar, 1/8 teaspoon salt into the pan. Stir them evenly. Then add the garlic sprouts and red pepper into the pan. Stir fry until the garlic sprouts are tender. Then we got the delicious Chinese stir fry octopus."}
+            ],
+            "dificulty": "easy",
+            "cookingTime": "10 mins",
+            "info": "This Chinese octopus recipe is very easy for you. It only takes 15 minutes to do it. You can use our octopus recipe to make a good dish for your family.",
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
+            }
         }
     ]
   }

@@ -21,7 +21,7 @@ class IngredientsViewController: UIViewController {
     
     private func setupTableView() {
         ingredientsTableView.register(IngredientTableViewCell.self, forCellReuseIdentifier: "IngredientCell")
-        ingredientsTableView.frame = CGRect(x: 10, y: 10, width: self.view.frame.width, height: 500)
+        ingredientsTableView.frame = CGRect(x: 10, y: 10, width: self.view.frame.width, height: self.view.frame.height)
         ingredientsTableView.dataSource = self
         ingredientsTableView.delegate = self
         self.view.addSubview(ingredientsTableView)
@@ -31,7 +31,7 @@ class IngredientsViewController: UIViewController {
 
 extension IngredientsViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recepie.description.count
+        return recepie.ingredients.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

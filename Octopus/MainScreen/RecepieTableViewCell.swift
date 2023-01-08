@@ -12,7 +12,9 @@ class RecepieTableViewCell: UITableViewCell {
         var content = defaultContentConfiguration()
         content.text = recepie.title
         guard let image = UIImage(named: recepie.smallImage) else { return }
+        content.imageProperties.maximumSize.width = 150
         content.image = image
+        content.imageProperties.cornerRadius = 10
         contentConfiguration = content
     }
 }

@@ -20,7 +20,7 @@
 		A08A35E929683ED6009B176F /* ModelRecepie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A35E829683ED6009B176F /* ModelRecepie.swift */; };
 		A08A35EB29684068009B176F /* json24.json in Resources */ = {isa = PBXBuildFile; fileRef = A08A35EA29684068009B176F /* json24.json */; };
 		A08A35ED2968408C009B176F /* RecepieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A35EC2968408C009B176F /* RecepieData.swift */; };
-		A08CD68529696D6F00486FB5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD68429696D6F00486FB5 /* TableViewCell.swift */; };
+		A08CD68529696D6F00486FB5 /* RecepieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD68429696D6F00486FB5 /* RecepieTableViewCell.swift */; };
 		A08CD68729696E2F00486FB5 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD68629696E2F00486FB5 /* ImageManager.swift */; };
 		A08CD6892969723600486FB5 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CD6882969723600486FB5 /* IngredientsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		A08A35E829683ED6009B176F /* ModelRecepie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRecepie.swift; sourceTree = "<group>"; };
 		A08A35EA29684068009B176F /* json24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json24.json; sourceTree = "<group>"; };
 		A08A35EC2968408C009B176F /* RecepieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieData.swift; sourceTree = "<group>"; };
-		A08CD68429696D6F00486FB5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A08CD68429696D6F00486FB5 /* RecepieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieTableViewCell.swift; sourceTree = "<group>"; };
 		A08CD68629696E2F00486FB5 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		A08CD6882969723600486FB5 /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				A08A35D8296832D5009B176F /* ListViewController.swift */,
-				A08CD68429696D6F00486FB5 /* TableViewCell.swift */,
+				A08CD68429696D6F00486FB5 /* RecepieTableViewCell.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08CD68529696D6F00486FB5 /* TableViewCell.swift in Sources */,
+				A08CD68529696D6F00486FB5 /* RecepieTableViewCell.swift in Sources */,
 				A015952D2969BFEE00366C08 /* CookingViewController.swift in Sources */,
 				A08A35D9296832D5009B176F /* ListViewController.swift in Sources */,
 				A08A35D5296832D5009B176F /* AppDelegate.swift in Sources */,
