@@ -14,7 +14,6 @@ class AuthorViewController: UIViewController {
     var scrollView: UIScrollView = {
             let scroll = UIScrollView()
             scroll.translatesAutoresizingMaskIntoConstraints = false
-            scroll.contentSize = CGSize(width: UIScreen.main.bounds.width, height: 800)
             return scroll
         }()
     
@@ -87,7 +86,8 @@ class AuthorViewController: UIViewController {
                 
                 infoLabel.topAnchor.constraint(equalTo: authorImageView.bottomAnchor, constant: 10),
                 infoLabel.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
-                infoLabel.widthAnchor.constraint(equalTo: scrollView.widthAnchor, multiplier: 0.9)
+                infoLabel.widthAnchor.constraint(equalTo: scrollView.widthAnchor, multiplier: 0.9),
+                infoLabel.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: 0)
             
             ])
         }

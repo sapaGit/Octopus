@@ -14,7 +14,7 @@ class InfoViewController: UIViewController {
     var scrollView: UIScrollView = {
             let scroll = UIScrollView()
             scroll.translatesAutoresizingMaskIntoConstraints = false
-            scroll.contentSize = CGSize(width: UIScreen.main.bounds.width, height: 800)
+//            scroll.contentSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             return scroll
         }()
     
@@ -121,7 +121,8 @@ class InfoViewController: UIViewController {
             
             cookingTimeLabel.topAnchor.constraint(equalTo: dificultyLabel.bottomAnchor, constant: 10),
             cookingTimeLabel.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
-            cookingTimeLabel.widthAnchor.constraint(equalTo: scrollView.widthAnchor, multiplier: 0.9)
+            cookingTimeLabel.widthAnchor.constraint(equalTo: scrollView.widthAnchor, multiplier: 0.9),
+            cookingTimeLabel.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: 0)
         ])
     }
 }
