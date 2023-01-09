@@ -38,7 +38,7 @@ class MainViewController: UIViewController {
     var goToRecipesButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .lightGray
+        button.backgroundColor = .black
         button.setTitle("Go to Octopus recipes", for: .normal)
         button.addTarget(self, action: #selector(goToListVC), for: .touchUpInside)
         button.layer.cornerRadius = 10
@@ -55,12 +55,12 @@ class MainViewController: UIViewController {
    private func setupInterface() {
         
         view.backgroundColor = .white
-        navigationItem.title = "Main"
+//        navigationItem.title = "Main"
         
-        titleLabel.text = "8 octopus recipes"
+        titleLabel.text = "Octopus. It's a water animal."
         view.addSubview(titleLabel)
         
-        authorImageView.image = UIImage(named: "Jian-Yang")
+        authorImageView.image = UIImage(named: "CoolYang")
         authorImageView.contentMode = .scaleAspectFill
         view.addSubview(authorImageView)
         

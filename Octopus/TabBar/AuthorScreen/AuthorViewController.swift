@@ -38,7 +38,7 @@ class AuthorViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.lineBreakMode = .byWordWrapping
-        label.textAlignment = .left
+        label.textAlignment = .center
         label.numberOfLines = 0
         label.font = UIFont(name: "Helvetica", size: 20)
         return label
