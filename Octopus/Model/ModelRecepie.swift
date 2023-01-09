@@ -1,17 +1,17 @@
 
 import Foundation
 
-struct RecepieData: Codable {
+struct RecipeData: Codable {
     let menu: [Menu]
 }
 
 // MARK: - Menu
 struct Menu: Codable {
-    let recepie: Recepie
+    let recipe: Recipe
 }
 
-// MARK: - Recepie
-struct Recepie: Codable {
+// MARK: - Recipe
+struct Recipe: Codable {
     let title: String
     let ingredients: [Ingredient]
     let smallImage, largeImage: String

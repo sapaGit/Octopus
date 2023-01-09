@@ -9,7 +9,7 @@ import UIKit
 
 class AuthorViewController: UIViewController {
 
-    var recepie: Recepie!
+    var recepie: Recipe!
     
     var scrollView: UIScrollView = {
             let scroll = UIScrollView()

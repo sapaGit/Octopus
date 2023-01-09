@@ -7,14 +7,14 @@
 
 import Foundation
 
-class RecepieBank {
-    var shared: RecepieData {
+class RecipeBank {
+    var shared: RecipeData {
     
         guard let pathJson = Bundle.main.path(forResource: "json24", ofType: "json") else { return self.shared }
         
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: pathJson), options: .mappedIfSafe)
-            let object = try JSONDecoder().decode(RecepieData.self, from: data)
+            let object = try JSONDecoder().decode(RecipeData.self, from: data)
             return object
         } catch {
             print("Error")

@@ -8,13 +8,13 @@
 import UIKit
 
 class RecepieTableViewCell: UITableViewCell {
-    func configure(with recepie: Recepie) {
+    func configure(with recepie: Recipe) {
         var content = defaultContentConfiguration()
         content.text = recepie.title
         guard let image = UIImage(named: recepie.smallImage) else { return }
-        content.imageProperties.maximumSize.width = 150
+        content.imageProperties.maximumSize.width = 100
         content.image = image
-        content.imageProperties.cornerRadius = 10
+        content.imageProperties.cornerRadius = 7
         contentConfiguration = content
     }
 }

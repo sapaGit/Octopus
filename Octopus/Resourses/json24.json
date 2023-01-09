@@ -1,6 +1,6 @@
 {
   "menu":[{
-    "recepie": {
+    "recipe": {
       "title": "Fresh octopus salad",
       "ingredients": [
             { "ingredient": "1kg octopus"},
@@ -26,13 +26,13 @@
         "dificulty": "medium",
         "cookingTime": "45 minutes",
         "info": "Have you ever cooked octopus? Selina gives some great tips on dealing with this eight legged creature and shares a beautiful recipe for fresh octopus salad.",
-        "author": "Selina Periampillai",
-        "authorDescription": "Selina Periampillai is a British-born Mauritian food pioneer, self-taught chef and author of The Island Kitchen.",
-        "authorImage": "SelinaPeriampillai"
+        "author": "Jian-Yang",
+        "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+        "authorImage": "Jian-Yang"
         }
     },
       {
-        "recepie": {
+        "recipe": {
           "title": "Grilled octopus with fennel, caramelised lemon and salsa cruda",
           "ingredients": [
                 { "ingredient": "1 small octopus, defrosted if frozen"},
@@ -64,13 +64,13 @@
             "dificulty": "easy",
             "cookingTime": "2 hours",
             "info": "If you haven't had octopus before, we can't think of a better dish to introduce you to its delicious flavour and meaty texture. The tentacles are grilled until crisp and lightly charred, served with the fresh anise hit of fennel and dressed with a simple combination of shallots and herbs in oil and vinegar. The caramelised lemon wedge finishes things off with a smoky sweetness.",
-            "author": "Ben Tish",
-            "authorDescription": "Chef, restaurateur and cookbook author Ben Tish has a stellar track record for creating dishes that, quite simply, everyone wants to eat. After years of channelling his love of Mediterranean food he's now chef director across Cubitt House's various pubs and restaurants, proving just how versatile his talents are.",
-            "authorImage": "BenTish"
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
             }
         },
       {
-        "recepie": {
+        "recipe": {
           "title": "Fried Octopus With Garlic",
           "ingredients": [
                 {"ingredient": "1 bunch of leeks (garlic sprouts)"},
@@ -96,6 +96,135 @@
             "dificulty": "easy",
             "cookingTime": "10 mins",
             "info": "This Chinese octopus recipe is very easy for you. It only takes 15 minutes to do it. You can use our octopus recipe to make a good dish for your family.",
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
+            }
+        },
+      {
+        "recipe": {
+          "title": "Boiled Fresh Octopus",
+          "ingredients": [
+                {"ingredient": "1 octopus, very fresh"},
+                {"ingredient": "1 tbsp soy sauce"},
+                {"ingredient": "1/4 tsp wasabi"}
+            ],
+            "smallImage": "04L",
+            "largeImage": "04L",
+            "description": [
+                {"step": "Separate the head from the tentacles if your fish guy hasn't done it yet.  Remove the eyes, teeth, cartilage spine and whatever else that is in the octopus head.  Rinse your octopus in running water for a minute.  DO NOT cut up the octopus now.  Cook first and slice it up later."},
+                {"step": "In a large pot, heat enough water to cover the octopus by an inch or so.  When the water boils add the octopus.  When the water reboils, cover and cook 5-15 minutes according to your preference."},
+                {"step": "Remove from water immediately and let cool completely.  Slice tentacles at an angle into 1/4 thick slices and the head meat into neat strips with a good sharp sashimi knife (if you have one.)"},
+                {"step": "Arrange nicely on plate and serve with a dip of your best soy sauce with a dash of wasabi!"}
+            ],
+            "dificulty": "easy",
+            "cookingTime": "5 mins",
+            "info": "Boiled Fresh Octopus served simply with a soy sauce and wasabi dip.  So fresh and yummilicious!",
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
+            }
+        },
+      {
+        "recipe": {
+          "title": "Spicy stir-fried octopus (nakji bookeum)",
+          "ingredients": [
+                {"ingredient": "300 g (10½ oz) baby octopus (about 10–12)"},
+                {"ingredient": "salt"},
+                {"ingredient": "vegetable oil"},
+                {"ingredient": "½ onion, thinly sliced"},
+                {"ingredient": "2 spring onions (scallions), cut into 5-cm (2-in) lengths, plus extra thinly"},
+                {"ingredient": "sliced onions, to garnish"},
+                {"ingredient": "toasted sesame seeds, to garnish"}
+            ],
+            "smallImage": "05L",
+            "largeImage": "05L",
+            "description": [
+                {"step": "To clean the octopus, make a cut between the head and the tentacles. Turn the head inside out and clean out all the innards. For the tentacles, cut them in half then trim off the eyes and the beak. Put them in a bowl, add the salt, then use your hands to rub the octopus for 2–3 minutes to clean the suction cups. Once tiny bubbles form on the suction cups, rinse the octopus under cold water two or three times, then drain and set aside."},
+                {"step": "To make the marinade, combine all the ingredients in a bowl and mix until the sugar has dissolved. Add the marinade to the octopus and stir until the octopus is well coated. Set aside to marinate for 10 minutes."},
+                {"step": "Heat the vegetable oil in a frying pan or wok over medium–high heat. Stir-fry the onion for 2 minutes or until soft and translucent. Add the marinated octopus, scraping all the marinade from the bowl into the pan. Stir-fry for another 3 minutes or until the octopus is just cooked through. Add the spring onion, stir-fry for another 30 seconds, then remove from the heat and transfer to a serving bowl. Garnish with sesame seeds and extra spring onion and serve immediately with steamed rice."}
+            ],
+            "dificulty": "medium",
+            "cookingTime": "5 mins",
+            "info": "The baby octopus in this recipe is perfectly cooked in a gochujang hot sauce. This dish is very spicy, a perfect winter treat for those who like it hot.",
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
+            }
+        },
+      {
+        "recipe": {
+          "title": "Spicy Stir Fried Octopus w/ Vegetables",
+          "ingredients": [
+                {"ingredient": "1 lb octopus (squid can be used as a substitute)"},
+                {"ingredient": "1 cup onion, diced"},
+                {"ingredient": "2 chilies or jalapenos, sliced on the bias"},
+                {"ingredient": "2 green onions, sliced on the bias"},
+                {"ingredient": "1 cup zucchini strips "},
+                {"ingredient": "1/2 cup carrots thin strips"},
+                {"ingredient": "1 red or green peppers, sliced in long strips"}
+            ],
+            "smallImage": "06L",
+            "largeImage": "06L",
+            "description": [
+                {"step": "Wash and rinse octopus, cut the legs into 2-3 lengths, open head and take out inside, quarter the head. Drain well."},
+                {"step": "Prepare and mix all ingredients for sauce"},
+                {"step": "Combine final sauce with octopus and marinate for 10 minutes."},
+                {"step": "Heat pan on a medium high heat, cook for 8-10 minutes or until done."}
+            ],
+            "dificulty": "medium",
+            "cookingTime": "10 mins",
+            "info": "Nakji Bokum is a very spicy octopus dish enjoyed by many Koreans. Different variation of this dish do exist as the octopus can be substituted with squid for less chewy texture and taste. Some may find this dish too spicy even diluted with rice that accompanies this dish.",
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
+            }
+        },
+      {
+        "recipe": {
+          "title": "Chinese Celery and Baby Octopus, the Vietnamese way",
+          "ingredients": [
+                {"ingredient": "1 pound baby octopus, cleaned"},
+                {"ingredient": "1 bunch Chinese celery"},
+                {"ingredient": "2 tomatoes, sliced"},
+                {"ingredient": "3 tablespoons fish sauce, or to taste"},
+                {"ingredient": "3 tablespoons sriracha"},
+                {"ingredient": "Juice of half a lemon"},
+                {"ingredient": "1 onion"}
+            ],
+            "smallImage": "07L",
+            "largeImage": "07L",
+            "description": [
+                {"step": "Marinade the octopus in sriracha, fish sauce and juice of half a lemon for 15-20 minutes. In the meantime wash and cut the long Chinese celery into thirds or quarters (length-wise)."},
+                {"step": "In a large saute pan, saute the onion until soft , then add the celery and saute for 5 minutes until soft but still a bit crunchy. Add the baby octopus and its marinade and stir quickly, saute only until just cooked (the meat will be pokeable with a chopstick, not transparent, not too soft)."},
+                {"step": "Push the octopus to the outside rim of your pan where it's less hot, or you can even REMOVE the octopus from the pan. Add the tomatoes last for another 3-5 minutes until just cooked. If you have a really really large pan, you can put in the octopus and tomatoes together at the same time. Serve and enjoy!"}
+            ],
+            "dificulty": "medium",
+            "cookingTime": "25 mins",
+            "info": "This is a classic preparation in Vietnam, except usually we make it with squid. The baby octopus just looked really good at the market that time, so we thought - why not? With squid, you would slice it thin or score criss-cross on a 2x2'' piece of squid, to make it cook fast without getting chewy, and absorb the sauce. I took a chance with baby octopus and saute it really fast, and then cut it up when we eat.",
+            "author": "Jian-Yang",
+            "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
+            "authorImage": "Jian-Yang"
+            }
+        },
+      {
+        "recipe": {
+          "title": "Cooked Octopus Recipe",
+          "ingredients": [
+                {"ingredient": "2 to 3 pounds octopus, fresh or frozen"},
+                {"ingredient": "3 to 5 quarts cold water"}
+            ],
+            "smallImage": "08L",
+            "largeImage": "08L",
+            "description": [
+                {"step": "Gather the ingredients."},
+                {"step": "If buying fresh octopus, ask the fishmonger to clean it for you. However, if the octopus is not pre-cleaned, wash and clean it, removing the ink sac and internal organs by making a circular cut around the beak, with a paring knife. Pull away the beak and the organs will come with it. All frozen octopus is pre-cleaned."},
+                {"step": "Set the octopus in a large pot with enough water to cover it, then bring the water to just a simmer."},
+                {"step": "Simmer very gently at 190 to 200 F. Timing varies depending on the weight of the octopus and how many you are cooking. For a 2- to 3-pound octopus, it will usually be between 1 to 2 hours. Test for doneness by inserting a knife where the head meets the legs. The knife should slide in easily. If not, allow more time to cook. Once the octopus is tender, use it in your favorite recipe. Grill it or slice it in a salad. Enjoy."}
+            ],
+            "dificulty": "medium",
+            "cookingTime": "2 hours",
+            "info": "Octopus is a beast to prepare not because it's hard, but because there is a lot of conflicting information as to what's best to do. Always a delightful dish when properly cooked, and a disaster when served chewy and rubbery, octopus needs some time investment to really shine. ",
             "author": "Jian-Yang",
             "authorDescription": "Jìan-Yáng is a shady app developer living in Erlich Bachman's Hacker Hostel and business incubator, Aviato.",
             "authorImage": "Jian-Yang"

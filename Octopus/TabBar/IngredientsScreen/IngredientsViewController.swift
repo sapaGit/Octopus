@@ -9,7 +9,7 @@ import UIKit
 
 class IngredientsViewController: UIViewController {
 
-    var recepie: Recepie!
+    var recepie: Recipe!
     let ingredientsTableView = UITableView()
     
     override func viewDidLoad() {
