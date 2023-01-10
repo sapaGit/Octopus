@@ -9,7 +9,7 @@ import UIKit
 
 class IngredientsViewController: UIViewController {
 
-    var recepie: Recipe!
+    var recepie: Recipe?
     let ingredientsTableView = UITableView()
     
     override func viewDidLoad() {
@@ -31,12 +31,12 @@ class IngredientsViewController: UIViewController {
 
 extension IngredientsViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recepie.ingredients.count
+        return recepie?.ingredients.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "IngredientCell", for: indexPath) as? IngredientTableViewCell else { return UITableViewCell() }
-        let ingredient = recepie.ingredients[indexPath.row]
+        guard let ingredient = recepie?.ingredients[indexPath.row] else { return UITableViewCell() }
         cell.configure(with: ingredient)
         return cell
     }

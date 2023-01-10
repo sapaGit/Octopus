@@ -9,7 +9,7 @@ import UIKit
 
 class CookingViewController: UIViewController {
 
-    var recepie: Recipe!
+    var recepie: Recipe?
     let cookingTableView = UITableView()
     
     override func viewDidLoad() {
@@ -30,12 +30,12 @@ class CookingViewController: UIViewController {
 
 extension CookingViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return recepie.description.count
+        return recepie?.description.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "CookingCell", for: indexPath) as? CookingViewCell else { return UITableViewCell() }
-        let step = recepie.description[indexPath.row]
+        let step = recepie?.description[indexPath.row] ?? Description(step: "no info")
         cell.configure(with: step, number: indexPath.row + 1)
         return cell
     }

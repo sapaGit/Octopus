@@ -9,7 +9,7 @@ import UIKit
 
 class RecepieTabBarController: UITabBarController, UITabBarControllerDelegate {
 
-    var recepie: Recipe!
+    var recepie: Recipe?
     
     override func viewDidLoad() {
             super.viewDidLoad()

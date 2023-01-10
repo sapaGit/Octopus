@@ -9,7 +9,7 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
-    var recepie: Recipe!
+    var recepie: Recipe?
     
     var scrollView: UIScrollView = {
             let scroll = UIScrollView()
@@ -78,20 +78,21 @@ class InfoViewController: UIViewController {
         
         view.addSubview(scrollView)
         
-        titleLabel.text = recepie.title
+        titleLabel.text = recepie?.title
         scrollView.addSubview(titleLabel)
         
-        recepieImageView.image = UIImage(named: recepie.largeImage)
+        recepieImageView.image = UIImage(named: recepie?.largeImage ?? "noImage")
         recepieImageView.contentMode = .scaleAspectFill
         scrollView.addSubview(recepieImageView)
         
-        infoLabel.text = recepie.info
+        infoLabel.text = recepie?.info
         scrollView.addSubview(infoLabel)
         
-        dificultyLabel.text = "Dificulty: \(recepie.dificulty)"
+        dificultyLabel.text = "Dificulty: \(recepie?.dificulty ?? "no info")"
         scrollView.addSubview(dificultyLabel)
         
-        cookingTimeLabel.text = "Cooking time: \(recepie.cookingTime)"
+        
+        cookingTimeLabel.text = "Cooking time: \(recepie?.cookingTime ?? "no info")"
         scrollView.addSubview(cookingTimeLabel)
     
     }

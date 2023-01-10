@@ -9,7 +9,7 @@ import UIKit
 
 class AuthorViewController: UIViewController {
 
-    var recepie: Recipe!
+    var recepie: Recipe?
     
     var scrollView: UIScrollView = {
             let scroll = UIScrollView()
@@ -58,14 +58,14 @@ class AuthorViewController: UIViewController {
         
         view.addSubview(scrollView)
         
-        titleLabel.text = recepie.author
+        titleLabel.text = recepie?.author
         scrollView.addSubview(titleLabel)
         
-        authorImageView.image = UIImage(named: recepie.authorImage)
+        authorImageView.image = UIImage(named: recepie?.authorImage ?? "noImage")
         authorImageView.contentMode = .scaleAspectFill
         scrollView.addSubview(authorImageView)
         
-        infoLabel.text = recepie.authorDescription
+        infoLabel.text = recepie?.authorDescription
         scrollView.addSubview(infoLabel)
     }
         private func setConstraints() {

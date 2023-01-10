@@ -9,6 +9,16 @@ import UIKit
 
 class MainViewController: UIViewController {
    
+    var changeLanguageButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .white
+        button.setTitleColor(.black, for: .normal)
+        button.setTitle("Ru", for: .normal)
+        button.addTarget(self, action: #selector(changeLanguage), for: .touchUpInside)
+        return button
+    }()
+    
     var titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -55,7 +65,8 @@ class MainViewController: UIViewController {
    private func setupInterface() {
         
         view.backgroundColor = .white
-//        navigationItem.title = "Main"
+       
+        view.addSubview(changeLanguageButton)
         
         titleLabel.text = "Octopus. It's a water animal."
         view.addSubview(titleLabel)
@@ -69,6 +80,9 @@ class MainViewController: UIViewController {
         
         view.addSubview(goToRecipesButton)
     }
+    @objc private func changeLanguage() {
+        print("Language changed")
+    }
     
     @objc private func goToListVC() {
         let controller = ListViewController()
@@ -78,7 +92,12 @@ class MainViewController: UIViewController {
         private func setConstraints() {
             NSLayoutConstraint.activate([
                 
-                titleLabel.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 10),
+                changeLanguageButton.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 10),
+                changeLanguageButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10 ),
+                changeLanguageButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.6),
+                changeLanguageButton.heightAnchor.constraint(equalToConstant: 30),
+                
+                titleLabel.topAnchor.constraint(equalTo: changeLanguageButton.bottomAnchor, constant: 10),
                 titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 titleLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.7),
                 
